@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/testc++/2/fstream.cpp
+iostream
+-
+fstream
+-
+cstdio
+-
+string
+-
+bits/stdc++.h
+-
+
+E:/testc++/2/main.cpp
+bits/stdc++.h
+-
+

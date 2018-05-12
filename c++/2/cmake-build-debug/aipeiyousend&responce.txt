@@ -1,0 +1,58 @@
+请求网址:http://passport.ablesky.com/login.do?ajax=true&jsonp=ablesky_1525616876512&isPopUp=false&j_username=57zhongxueshuxue&j_password=e33789a765dbe1643c05584128185539&_acegi_save_account=on&_acegi_security_remember_me=off&_=1525616876512
+请求方法:GET
+远程地址:114.118.16.4:80
+响应头：
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Type:text/javascript;charset=utf-8
+Date:Sun, 06 May 2018 14:27:53 GMT
+p3p:CP="CURa ADMa DEVa PSAo PSDo O… PRE COM NAV OTC NOI DSP COR"
+Server:nginx/1.6.0
+Transfer-Encoding:chunked
+Vary:Accept-Encoding
+请求头：
+Accept
+*/*
+Accept-Encoding
+gzip, deflate
+Accept-Language
+zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Connection
+keep-alive
+Cookie
+passport=3920c8f3a560ddfad0ff7…6.passport0md.bp1.ablesky.com
+Host
+passport.ablesky.com
+Referer
+http://class.ipoweru.cn/login.…F%2Fclass.ipoweru.cn%2Fipoweru
+User-Agent
+Mozilla/5.0 (Windows NT 10.0; …) Gecko/20100101 Firefox/59.0
+
+请求 Cookie：
+JSESSIONID	D77AA9AE908C7C9EF37D579C4FEBABD6.passport0md.bp1.ablesky.com
+passport	3920c8f3a560ddfad0ff73787a63bf90
+
+查询字符串
+_	1525616876512
+_acegi_save_account	on
+_acegi_security_remember_me	off
+ajax	true
+isPopUp	false
+j_password	e33789a765dbe1643c05584128185539
+j_username	57zhongxueshuxue
+jsonp	ablesky_1525616876512
+
+响应：
+ablesky_1525616876512({"message":"帐号或密码错误","wrongTimes":3,"sS":"101","tryTimesLeft":2,"iI":false,"iP":false,"success":false,"alertMessage":"您还有2次输入密码的机会<br/>密码3小时内连续输错5次，帐号将被冻结3小时"});
+
+堆栈追踪：
+send
+http://js.ablesky.cn/stata/js_optimize/lib/require-jquery_981ae615.js:7:4114
+ajax
+http://js.ablesky.cn/stata/js_optimize/lib/require-jquery_981ae615.js:7:2332
+p/<
+http://js.ablesky.cn/stata/js_optimize/common/global_1741455.js:5:10311
+dispatch
+http://js.ablesky.cn/stata/js_optimize/lib/require-jquery_981ae615.js:5:21715
+r
+http://js.ablesky.cn/stata/js_optimize/lib/require-jquery_981ae615.js:5:17679
