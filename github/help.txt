@@ -49,3 +49,18 @@ git push origin master
 第8步：主repo收到pull request后，可以merge进来
 
 这个可以review修改，如果没问题就可以直接 Merge pull requst ，merge后就可以在主仓库看到了
+
+
+
+
+首先从远程的origin的master主分支下载最新的版本到origin/master分支上
+然后比较本地的master分支和origin/master分支的差别
+最后进行合并
+
+上述过程其实可以用以下更清晰的方式来进行：
+
+$ git fetch origin master:tmp
+$ git diff tmp 
+$ git merge tmp
+
+git pull origin master
