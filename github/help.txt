@@ -1,0 +1,51 @@
+git add .
+git commit -m " "
+git push origin master
+git clone [*.git]
+git remote add origin [git@github.com:username/repo.git]
+
+
+第1步：fork一份自己的repo
+
+打开peachdocs/peach在Github上的主页（https://github.com/peachdocs/peach.git)，在右上角点击“fork”就可以fork一份自己的repo，现在我们就有了一份自己的repo，接下里我们的操作都是基于自己的repo
+
+第2步：clone自己的repo
+
+上面我们fork了自己的repo，接着就可以clone下来了，先到自己的repo主页（https://github.com/biezhi/peach），找到repo的git地址，诸如这样 https://github.com/biezhi/peach.git,然后clone到本地
+
+git clone https://github.com/biezhi/peach.git
+
+第3步：查看和添加远程分支
+
+我们接着cd到项目里，看下当前的git远程仓库，如下
+
+cd peach
+git remote -v
+
+第4步：获取主仓库最新代码
+
+git fetch peachdocs
+
+第5步：合并到自己的分支里
+
+git merge peachdocs/master
+
+第6步：本地修改代码，提交到自己的repo
+
+修改完后
+
+git add .
+git commit -m "本次修改描述"
+
+最后我把本次修改提交到自己的远程仓库（biezhi/peach）中，操作如下
+
+git push origin master
+
+第7步：给主repo发pull request
+
+提交到自己repo后，就可以给主repo发一个请求合并的 pull request，操作步骤是这样的:
+
+打开 https://github.com/biezhi/peach ，点击 pull request 的界面，添加详细的描述信息后
+第8步：主repo收到pull request后，可以merge进来
+
+这个可以review修改，如果没问题就可以直接 Merge pull requst ，merge后就可以在主仓库看到了
