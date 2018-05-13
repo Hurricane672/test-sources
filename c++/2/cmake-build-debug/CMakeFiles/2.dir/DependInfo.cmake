@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/testc++/2/fstream.cpp" "E:/testc++/2/cmake-build-debug/CMakeFiles/2.dir/fstream.cpp.obj"
-  "E:/testc++/2/main.cpp" "E:/testc++/2/cmake-build-debug/CMakeFiles/2.dir/main.cpp.obj"
+  "E:/sources/c++/2/fstream.cpp" "E:/sources/c++/2/cmake-build-debug/CMakeFiles/2.dir/fstream.cpp.obj"
+  "E:/sources/c++/2/main.cpp" "E:/sources/c++/2/cmake-build-debug/CMakeFiles/2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/testc++/2/fstream.cpp
+E:/sources/c++/2/fstream.cpp
 iostream
 -
 fstream
@@ -18,7 +18,7 @@ string
 bits/stdc++.h
 -
 
-E:/testc++/2/main.cpp
+E:/sources/c++/2/main.cpp
 bits/stdc++.h
 -
 
