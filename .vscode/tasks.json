@@ -9,7 +9,10 @@
             "command": "g++",
             "args": [
                 "-g",
-                "E:\\test-sources\\c++\\fibonacciSequence.cpp"
+                "-o",
+                "findBothPrime.exe",
+                //"E:\\test-sources\\c++\\fibonacciSequence.cpp"
+                "E:\\test-sources\\c++\\findBothPrime.cpp"
             ],
             "group": {
                 "kind": "build",

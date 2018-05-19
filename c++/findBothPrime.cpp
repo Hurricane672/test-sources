@@ -48,9 +48,11 @@ int main() {
             c--;
             continue;
         } else {
+            system("pause");
             return 0;
         }
     }
     cout << 0 << endl;
+    system("pause");
     return 0;
 }
