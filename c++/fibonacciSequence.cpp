@@ -11,7 +11,7 @@ int main()
 		{
 			a[c]=a[c-1]+a[c-2];
 		}
-	for(int c=0; a[c]!=NULL; c++)
+	for(int c=0; c<k; c++)//a[c]!=NULL
 		{
 			if((c+1)%5==0)
 				{
@@ -22,4 +22,6 @@ int main()
 			}
 		}
 	cout<<a[k];
+	system("pause");
+	return 0;
 }
