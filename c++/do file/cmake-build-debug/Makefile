@@ -47,10 +47,10 @@ RM = "F:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\sources\c++\2
+CMAKE_SOURCE_DIR = "E:\test-sources\c++\do file"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\sources\c++\2\cmake-build-debug
+CMAKE_BINARY_DIR = "E:\test-sources\c++\do file\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\sources\c++\2\cmake-build-debug\CMakeFiles E:\sources\c++\2\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\test-sources\c++\do file\cmake-build-debug\CMakeFiles" "E:\test-sources\c++\do file\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\sources\c++\2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\test-sources\c++\do file\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,60 +122,6 @@ depend:
 	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/build
 .PHONY : 2/fast
 
-fstream.obj: fstream.cpp.obj
-
-.PHONY : fstream.obj
-
-# target to build an object file
-fstream.cpp.obj:
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/fstream.cpp.obj
-.PHONY : fstream.cpp.obj
-
-fstream.i: fstream.cpp.i
-
-.PHONY : fstream.i
-
-# target to preprocess a source file
-fstream.cpp.i:
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/fstream.cpp.i
-.PHONY : fstream.cpp.i
-
-fstream.s: fstream.cpp.s
-
-.PHONY : fstream.s
-
-# target to generate assembly for a file
-fstream.cpp.s:
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/fstream.cpp.s
-.PHONY : fstream.cpp.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +131,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 2
 	@echo ... edit_cache
-	@echo ... fstream.obj
-	@echo ... fstream.i
-	@echo ... fstream.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 

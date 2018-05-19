@@ -4,12 +4,15 @@
             "name": "Win32",
             "browse": {
                 "path": [
-                    "${workspaceFolder}"
+                    "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++",
+                    "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++\\bits"
+
                 ],
                 "limitSymbolsToIncludedHeaders": true
             },
             "includePath": [
-                "${workspaceFolder}/**"
+                "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++",
+                "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++\\bits"
             ],
             "defines": [
                 "_DEBUG",

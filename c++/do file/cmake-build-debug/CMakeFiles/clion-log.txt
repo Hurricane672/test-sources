@@ -1,4 +1,4 @@
-"F:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\sources\c++\2
+"F:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\test-sources\c++\do file"
 -- The C compiler identification is GNU 6.3.0
 -- The CXX compiler identification is GNU 6.3.0
 -- Check for working C compiler: F:/MinGW/bin/gcc.exe
@@ -14,5 +14,17 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    main.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: 2
+CMake Error: Cannot determine link language for target "2".
 -- Generating done
--- Build files have been written to: E:/sources/c++/2/cmake-build-debug
+-- Build files have been written to: E:/test-sources/c++/do file/cmake-build-debug
+Unable to determine product file path for target 2. Running and debugging will be unavailable.
