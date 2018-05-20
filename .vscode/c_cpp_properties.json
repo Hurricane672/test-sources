@@ -1,26 +1,30 @@
 {
-    "configurations": [{
-        "name": "Win32",
-        "includePath": [
-            "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++",
-            "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++\\bits",
-            "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++\\i686-w64-mingw32\\bits" 
-        ],
-        "defines": [
-            "_DEBUG",
-            "UNICODE"
-        ],
-        "compilerPath": "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\bin\\g++.exe",
-        "intelliSenseMode": "clang-x64",
-        "browse": {
-            "path": [
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "F:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
                 "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++",
                 "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++\\bits",
                 "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++\\i686-w64-mingw32\\bits"
             ],
-            "limitSymbolsToIncludedHeaders": true,
-            "databaseFilename": ""
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "compilerPath": "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\bin\\g++.exe",
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "F:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
+                    "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++",
+                    "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++\\bits",
+                    "F:\\Program Files (x86)\\mingw-w64\\i686-7.3.0-posix-dwarf-rt_v5-rev0\\mingw32\\lib\\gcc\\i686-w64-mingw32\\7.3.0\\include\\c++\\i686-w64-mingw32\\bits"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": ""
+            }
         }
-    }],
+    ],
     "version": 4
 }
