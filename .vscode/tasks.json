@@ -9,10 +9,10 @@
             "command": "g++",
             "args": [
                 "-g",
+                "${file}",
                 "-o",
-                "${fileBasename}",
                 //"E:\\test-sources\\c++\\fibonacciSequence.cpp"
-                "${fileBasenameNoExtension}.exe"
+                "${file}.exe"
             ],
             "group": {
                 "kind": "build",
