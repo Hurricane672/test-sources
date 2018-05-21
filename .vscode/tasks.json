@@ -10,9 +10,9 @@
             "args": [
                 "-g",
                 "-o",
-                "findBothPrime.exe",
+                "${fileBasenameNoExtension}.exe",
                 //"E:\\test-sources\\c++\\fibonacciSequence.cpp"
-                "E:\\test-sources\\c++\\findBothPrime.cpp"
+                "${fileBasename}"
             ],
             "group": {
                 "kind": "build",
