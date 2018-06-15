@@ -1,4 +1,1 @@
 http://www.baidu.com/s?wd=python
-http://www.baidu.com/s?wd=c++
-http://www.baidu.com/s?wd=c#
-http://www.baidu.com/s?wd=vscode
