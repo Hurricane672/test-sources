@@ -4,6 +4,6 @@
         "iosfwd": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
-    "python.pythonPath": "F:\\Anaconda\\python.exe",
+    "python.pythonPath": "F:\\Program Files\\Python36\\python.exe",
     "C_Cpp.errorSquiggles": "Disabled"
 }
