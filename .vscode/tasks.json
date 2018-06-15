@@ -12,7 +12,7 @@
                 "${file}",
                 "-o",
                 //"E:\\test-sources\\c++\\fibonacciSequence.cpp"
-                "${file}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "group": {
                 "kind": "build",

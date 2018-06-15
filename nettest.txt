@@ -1,0 +1,17 @@
+Host: mp.weixin.qq.com
+Connection: keep-alive
+Content-Length: 449
+Accept: application/json
+Origin: https://mp.weixin.qq.com
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; FRD-AL00 Build/HUAWEIFRD-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044033 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060637) NetType/WIFI Language/zh_CN
+Content-Type: application/x-www-form-urlencoded
+Referer: https://mp.weixin.qq.com/mp/newappmsgvote?action=show&__biz=MzAxMDEwNzQ4Ng==&supervoteid=466102122&uin=777&key=777&pass_ticket=DV0QfBB8%252BdPRbOGh%252Bj7K%252BkmY62irLVBT3W34U5npH0GLMvX2UhJN469YIZ46Q8mn&wxtoken=777&mid=2650715753&idx=1&appmsg_token=958_7DuX3SIBLp1W24dPVRDCmRHyxnBP6rMC-0ocsQr8VpmVGzVpyqPBYpZ0f6w4H3K7ryWzJPURDJmySd_d
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,en-US;q=0.8
+Cookie: rewardsn=; wxuin=958935682; devicetype=android-24; version=26060637; lang=zh_CN; pass_ticket=DV0QfBB8+dPRbOGh+j7K+kmY62irLVBT3W34U5npH0GLMvX2UhJN469YIZ46Q8mn; wap_sid2=CILloMkDElxTVkxEUXFVdlhrSHZGRmFmejBTTkIwWk1GaEl1NlN1YlZVMWlneXI5aGxKZ1pwR3JUWHdBTHBzNTJ6UXU2bC1QMjNrN242ZFdvNjhPQ3R4UXR0MjZVYjREQUFBfjCL2KPYBTgNQAE=; wxtokenkey=777
+Q-UA2: QV=3&PL=ADR&PR=WX&PP=com.tencent.mm&PPVN=6.6.6&TBSVC=43607&CO=BK&COVC=044033&PB=GE&VE=GA&DE=PHONE&CHID=0&LCID=9422&MO= FRD-AL00 &RL=1080*1794&OS=7.0&API=24
+Q-GUID: 459ccfb0c7e431889fec74e5117888cb
+Q-Auth: 31045b957cf33acf31e40be2f3e71c5217597676a9729f1b
+
+action=vote&__biz=MzAxMDEwNzQ4Ng%3D%3D&uin=777&key=777&pass_ticket=DV0QfBB8%252BdPRbOGh%252Bj7K%252BkmY62irLVBT3W34U5npH0GLMvX2UhJN469YIZ46Q8mn&appmsg_token=958_7DuX3SIBLp1W24dPVRDCmRHyxnBP6rMC-0ocsQr8VpmVGzVpyqPBYpZ0f6w4H3K7ryWzJPURDJmySd_d&f=json&json=%7B%22super_vote_item%22%3A%5B%7B%22vote_id%22%3A466102323%2C%22item_idx_list%22%3A%7B%22item_idx%22%3A%5B%224%22%5D%7D%7D%5D%2C%22super_vote_id%22%3A466102122%7D&idx=1&mid=2650715753&wxtoken=777

@@ -3,5 +3,7 @@
         "iostream": "cpp",
         "iosfwd": "cpp"
     },
-    "C_Cpp.intelliSenseEngineFallback": "Enabled"
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "python.pythonPath": "F:\\Anaconda\\python.exe",
+    "C_Cpp.errorSquiggles": "Disabled"
 }
