@@ -38,6 +38,7 @@ def getUrls(urls, searchs):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'}
     for i in searchs:
+        s = []
         url = urls + quote(i)
         req = urllib.request.Request(url=url, headers=headers)
         res = urllib.request.urlopen(req)
@@ -46,7 +47,8 @@ def getUrls(urls, searchs):
         result = soup.find_all("h3")
         for i in result:
             i = str(i)
-            l.append(re.findall(r1, i)[0])
+            s.append(re.findall(r1, i)[0])
+        l.append(s)
     return l
     # 此处应当循环嵌套
 
