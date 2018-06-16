@@ -1,4 +1,4 @@
-#coding=utf-8
+# coding=utf-8
 import time
 import re
 import PyQt5
@@ -10,44 +10,58 @@ import os
 import queue
 import threading
 import urllib
-from bs4 import BeautifulSoup as ba
+import string
+from bs4 import BeautifulSoup as bs
+from urllib.parse import quote
 
 def getInfo():
     path = os.path.split(os.path.realpath(__file__))[0]
     urlPath = path+"\\urls.txt"
     searchPath = path+"\\search.txt"
-    # http://www.baidu.com/s?wd=example&pn=x
     with open(urlPath) as u:
         urls = u.read().splitlines()
-    with open(searchPath,"r+",encoding="utf-8") as s:
+    with open(searchPath, "r+", encoding="utf-8") as s:
         searchs = s.read().splitlines()
     print("\nURLs:")
     for i in urls:
-        print("  [+] %s"%i)
+        print("  [+] %s" % i)
     print("\nKeyWords: ")
     for i in searchs:
-        print("  [+] %s"%i)
-    return(urls,searchs,path)
+        print("  [+] %s" % i)
+    return(urls, searchs, path)
 
-def getUrls(url):
-    s=urllib.request.urlopen(url).read()
-    ss=s.replace(" ","")
-    urls=re.findall(r"<a.*?href=.*?<\/a>",ss,re.I)
-    for i in urls:
-        print (i)
-    else:
-        print ("[-]Over")
 
-def getPages(urls):
-    #for i in urls:
-    i = "http://www.baidu.com/s?wd=" + "人际交往密切程度有多高"
-    r = requests.get(i)
-    return getUrls(i)
+def getUrls(urls, searchs):
+    l = []
+    pattern = "href=\"(.+?)\""
+    r1 = re.compile(pattern, re.IGNORECASE)
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'}
+    for i in searchs:
+        url = urls + quote(i)
+        req = urllib.request.Request(url=url, headers=headers)
+        res = urllib.request.urlopen(req)
+        html = res.read().decode('utf-8')
+        soup = bs(html, 'html.parser')
+        result = soup.find_all("h3")
+        for i in result:
+            i = str(i)
+            l.append(re.findall(r1, i)[0])
+    return l
+    # 此处应当循环嵌套
+
+# def getPages(urls):
+#     #for i in urls:
+#     i = "http://www.baidu.com/s?wd=" + "人际交往密切程度有多高"
+#     r = requests.get(i)
+#     return getUrls(i)
+
 
 def main():
+    # http://www.baidu.com/s?wd=example&pn=x
     while (True):
         print("Collecting informations...")
-        (urls,searchs,path) = getInfo()
+        (urls, searchs, path) = getInfo()
         x = input("Get again?(y/n)")
         if x == "y":
             continue
@@ -55,9 +69,13 @@ def main():
             break
         else:
             continue
-    getPages(urls)
+    del(urls)
+    urls = "http://www.baidu.com/s?wd="
+    print(getUrls(urls, searchs))
+
+
 if __name__ == '__main__':
     main()
-#for url in urls:
+# for url in urls:
 #    r = requests.get(url)
 #    print(r.status_code,r.content)
