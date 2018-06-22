@@ -67,7 +67,7 @@ def main():
         x = input("Get again?(y/n)")
         if x == "y":
             continue
-        if x == "n":
+        elif x == "n":
             break
         else:
             continue
