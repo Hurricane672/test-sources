@@ -1,9 +1,5 @@
 {
-    "files.associations": {
-        "iostream": "cpp",
-        "iosfwd": "cpp"
-    },
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
-    "python.pythonPath": "F:\\Program Files\\Python36\\python.exe",
+    "python.pythonPath": "F:\\ProgramData\\Anaconda3\\python.exe",
     "C_Cpp.errorSquiggles": "Disabled"
 }
