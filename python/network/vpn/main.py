@@ -29,7 +29,7 @@ def sendEmail(n,mes):
     message = MIMEText(mes,'plain','utf-8') 
     message['Subject'] = 'TOP '+str(n)+' Servers'
     message['From'] = sender 
-    message['To'] = receivers[0] 
+    message['To'] = receivers[0]
     
     try: 
         smtpObj = smtplib.SMTP(mail_host,587)
@@ -47,7 +47,7 @@ def main():
     nowTime = time.asctime(time.localtime(time.time()))
     message = nowTime + '\n'
     for i in range(len(result)):
-        mes = str(i) + '. ' + result[i] + '\n'
+        mes = str(i+1) + '. ' + result[i] + '\n'
         message += mes
     message += 'Account:vpn Password:vpn'
     sendEmail(n,message)
