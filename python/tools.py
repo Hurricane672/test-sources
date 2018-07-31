@@ -20,7 +20,7 @@ def sendEmail(user,passwd,sender,receiver,sub,mes,addtime=True):
         smtpObj.starttls()
         smtpObj.login(mail_user,mail_pass)
         smtpObj.sendmail(
-        sender,receivers,message.as_string())
+        sender,receiver,message.as_string())
         smtpObj.quit()
         print('Send successfully!')
     except smtplib.SMTPException as e:
