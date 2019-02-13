@@ -26,6 +26,7 @@ def main():
         downlist.append(downdict)
         downdict = {}
     download(downlist)
+    con.close()
 
 def download(downlist):
     comlist = []
