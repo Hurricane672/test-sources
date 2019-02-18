@@ -1,7 +1,7 @@
 import os
 
 def main():
-    con = open("python\\aria2\\config.txt",mode="r+")
+    con = open(os.getcwd()+"\\\\config.txt",mode="r+")
     downlist = []
     downdict = {}
     i = 1
@@ -39,3 +39,4 @@ def download(downlist):
 
 if __name__ == "__main__":
     main()
+    input()

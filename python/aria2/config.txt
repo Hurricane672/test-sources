@@ -1,3 +1,1 @@
-https://julialang-s3.julialang.org/bin/winnt/x64/1.1/julia-1.1.0-win64.exe
-F:/123456789
-https://julialang-s3.julialang.org/bin/winnt/x64/1.1/julia-1.1.0-win64.exe
+https://mail.qq.com/cgi-bin/download?sid=7MWvzisPn8KkPS1x&mailid=ZL3215-2_IAYodSditNVUUZ1vrWZ92
